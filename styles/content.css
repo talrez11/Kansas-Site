@@ -1,0 +1,272 @@
+/**
+ *  Style Sheet
+ *  Kansas City
+ *
+ * Copyright (c) 2014. by way2cu
+ * Author: Tal Reznic
+ */
+
+ /*GLOBAL*/
+
+ div.kansas_wrap{
+ 	display: block;
+	position: relative;
+	max-width: 1200px;	
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+ }
+
+ /*NAV MENU*/
+
+ div.kansas_wrap nav{
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ 	background-color: white;
+ 	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+
+ }
+
+ div.kansas_wrap nav span{
+ 	display: inline-block;
+ 	vertical-align: middle;
+ 	text-align: center;
+ }
+
+ div.kansas_wrap nav span img{
+ 	border-radius: 15px;
+ }
+
+ div.kansas_wrap nav span:nth-of-type(2){
+	width: 200px;
+	padding-left: 10px;
+	font-family: 'Roboto Slab';
+	text-align: left;
+	font-size: 2rem;
+	line-height: 2.2rem;
+	color: #33485d;
+	font-weight: bold;
+	margin-top: -5px;
+ }
+
+/*?????????*/
+ div.kansas_wrap nav a{
+	position: absolute;
+	right: 20px;
+	top: 25px;
+	width: 200px;
+	background-color: #e64b3b;
+	background-image: url(../images/icon-phone-white.svg);
+	background-repeat: no-repeat;
+	background-position: 180px;
+	background-size: 27px;
+	text-align: left;
+	text-decoration: none;
+	padding-left: 27px;
+	box-shadow: 1px 1px 9px grey;
+	color: white;
+	font-size: 1.3rem;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition:all 0.3s;
+ }
+
+ div.kansas_wrap nav a:hover{
+ 	background-color:  #bf382a;
+ }
+
+ /*HEADER SECTION*/
+
+div.kansas_wrap header{
+	position: relative;
+	min-height: 460px;
+	background-image: url(../images/header-background-01.jpg);
+
+}
+
+div.kansas_wrap header > span{
+
+	display: block;
+	width: 700px;
+	padding-left: 45px;
+	color: #33485d;
+	font-family: 'Roboto Slab'; 
+}
+
+div.kansas_wrap header>span:nth-of-type(1){
+	font-weight: bold;
+	font-size: 2rem;
+	padding-top: 50px;
+}
+
+div.kansas_wrap header > span:nth-of-type(2){
+	font-weight: 300;
+	font-size: 3.4rem;		
+}
+
+div.kansas_wrap header span img {
+   padding-left: 15px;
+   padding-top:20px;
+}
+
+/*HEADER  PHONE BOX*/
+
+div.kansas_wrap header div.phone_box{
+	position: absolute;
+	top: 240px;
+	left: 10px;
+	margin-left: 150px;
+	padding: 10px 15px;
+	background-color:  #e64b3b;
+	color: white;
+	text-align: center;
+	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	transition:all 0.3s;
+}
+
+div.kansas_wrap header div.phone_box:hover{
+	background-color:  #bf382a;
+}
+
+div.kansas_wrap header div.phone_box span{
+	font-size: 2rem;
+	font-weight: 300;
+
+}
+
+div.kansas_wrap header div.phone_box a{
+	display: block;
+	background-image: url(../images/icon-phone-white.svg);
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-position: 325px;
+	background-size: 45px;
+	text-align: left;
+	padding-left: 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 2.7rem;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: all 0.3s;
+}
+
+/*HEADER SERVICE SECTION*/
+
+
+div.kansas_wrap header > div.service{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 50px;
+}
+
+div.kansas_wrap header > div.service span{
+	display: block;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-top: 70px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+
+div.kansas_wrap header > div.service span:nth-of-type(1){
+	background-color: rgba(230, 75, 59, 0.50);
+	background-repeat: no-repeat;
+	background-position: 55px 20px;
+	background-image: url(../images/emergency.svg);
+	transition:all 0.3s;
+	cursor: pointer;
+}
+
+div.kansas_wrap header > div.service span:nth-of-type(1):hover{
+	background-color:#e64b3b;
+}
+
+div.kansas_wrap header > div.service span:nth-of-type(2){
+	background-color: rgba(43, 61, 79, 0.5);
+	background-repeat: no-repeat;
+	background-position: 50px 20px;
+	background-image: url(../images/auto.svg);
+	transition:all 0.3s;
+	cursor: pointer;
+}
+
+div.kansas_wrap header > div.service span:nth-of-type(2):hover{
+	background-color:#2b3d4f;
+}
+
+div.kansas_wrap header > div.service span:nth-of-type(3){
+	background-color: rgba(51, 151, 218, 0.5);
+	background-repeat: no-repeat;
+	background-position: 50px 20px;
+	background-image: url(../images/residential.svg);
+	transition:all 0.3s;
+	cursor: pointer;
+}
+
+div.kansas_wrap header > div.service span:nth-of-type(3):hover{
+	background-color:#3397da;
+}
+
+/*CONTACT FORM*/
+
+div.kansas_wrap div.contact{
+	background-color: #2b3d4f;
+	color: white;
+	text-align: center;
+	border: 1px solid black;
+}
+
+div.kansas_wrap div.contact>span{
+	display: block;
+	padding-top:15px;
+	font-size: 2rem;
+}
+
+div.kansas_wrap div.contact form {
+	display: block;
+	border:1px solid white;
+}
+
+div.kansas_wrap div.contact form label {
+    display: inline-block;
+    padding: 25px;
+}
+div.kansas_wrap div.contact form input{
+	padding: 10px;
+	text-align: center;
+	color:black;	
+}
+
+div.kansas_wrap div.contact form span{
+    padding-right: 10px;
+}
+
+div.kansas_wrap div.contact form div.controls{
+	display: inline-block;
+}
+
+div.kansas_wrap div.contact form div.controls button{
+   padding: 10px;
+   width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
