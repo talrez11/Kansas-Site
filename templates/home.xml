@@ -9,7 +9,49 @@
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
-			<h1>It works!</h1>
+			 <div class="kansas_wrap">
+			 	<!-- NAV MENU -->
+				 	<nav>
+				 		<span>
+				 			<img
+				 				src="_BASEURL.'/site/images/logo.svg'"
+				 				alt="logo"			 				
+				 				cms:eval="src"
+				 			/>
+				 		</span>
+				 		<span><cms:text constant="site_header"/></span>
+				 		<a href="#"><cms:text constant="phone"/></a>
+				 	</nav>
+				 	<!-- HEADER SECTION -->
+				 	<header>
+				 		<span><cms:text constant="header_top"/></span>
+				 		<span><cms:text constant="header_middle"/></span>
+				 		<span>
+				 			<img
+				 				src="_BASEURL.'/site/images/arrow-red.svg'"
+				 				alt="arrow_red"
+				 				cms:eval="src"
+				 			/>
+				 		</span>
+				 		<div class="phone_box">
+				 			<span><cms:text constant="phone_title"/></span>
+				 			<a href="#"><cms:text constant="phone"/></a>
+				 		</div>
+				 		<div class="service">
+				 			<span><cms:text constant="emergency"/></span>
+				 			<span><cms:text constant="auto"/></span>
+				 			<span><cms:text constant="residental"/></span>
+				 		</div>
+				 	</header>
+				 	<div class="contact">
+				 		<span><cms:text constant="form_caption"/></span>
+				 			<cms:module 
+				 				name="contact_form" 
+				 				action="show" 
+				 				text_id="contact_form"
+				 			/>
+				 	</div>			 	
+			 </div>
 		</body>
 	</html>
 </document>
