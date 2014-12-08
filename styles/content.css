@@ -174,6 +174,7 @@ div.kansas_wrap header > div.service span{
 	font-weight: bold;
 	color: white;
 	text-align: center;
+	
 }
 
 
@@ -184,10 +185,23 @@ div.kansas_wrap header > div.service span:nth-of-type(1){
 	background-image: url(../images/emergency.svg);
 	transition:all 0.3s;
 	cursor: pointer;
+	
+}
+
+div.kansas_wrap header > div.service span:nth-of-type(1)::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 100%;
+	border-top: 50px solid transparent;
+	border-right: 30px solid rgb(189, 132, 144);
+	border-bottom: 50px solid transparent
+
 }
 
 div.kansas_wrap header > div.service span:nth-of-type(1):hover{
 	background-color:#e64b3b;
+	
 }
 
 div.kansas_wrap header > div.service span:nth-of-type(2){
@@ -197,6 +211,17 @@ div.kansas_wrap header > div.service span:nth-of-type(2){
 	background-image: url(../images/auto.svg);
 	transition:all 0.3s;
 	cursor: pointer;
+}
+
+div.kansas_wrap header > div.service span:nth-of-type(2)::after{
+	content: '';
+	position: absolute;
+	top: 111px;
+	right: 100%;
+	border-top: 50px solid transparent;
+	border-right: 30px solid rgba(43, 61, 79, 0.5);
+	border-bottom: 50px solid transparent
+
 }
 
 div.kansas_wrap header > div.service span:nth-of-type(2):hover{
@@ -210,6 +235,17 @@ div.kansas_wrap header > div.service span:nth-of-type(3){
 	background-image: url(../images/residential.svg);
 	transition:all 0.3s;
 	cursor: pointer;
+}
+
+div.kansas_wrap header > div.service span:nth-of-type(3)::after{
+	content: '';
+	position: absolute;
+	top: 222px;
+	right: 100%;
+	border-top: 50px solid transparent;
+	border-right: 30px solid rgba(51, 151, 218, 0.5);;
+	border-bottom: 50px solid transparent
+
 }
 
 div.kansas_wrap header > div.service span:nth-of-type(3):hover{
@@ -233,12 +269,12 @@ div.kansas_wrap div.contact>span{
 
 div.kansas_wrap div.contact form {
 	display: block;
-	border:1px solid white;
 }
 
 div.kansas_wrap div.contact form label {
     display: inline-block;
     padding: 25px;
+    padding-left: 10px;
 }
 div.kansas_wrap div.contact form input{
 	padding: 10px;
