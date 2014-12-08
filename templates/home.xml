@@ -50,7 +50,33 @@
 				 				action="show" 
 				 				text_id="contact_form"
 				 			/>
-				 	</div>			 	
+				 	</div>
+				 	<!-- FEATURE SECTION -->
+				 	<div class="feature">
+				 		<div class="feature_desc">	 			
+				 			<span><cms:text constant="feature_left"/></span>
+				 			<span><cms:text constant="feature_left_desc"/></span>
+				 		</div>
+				 		<div class="feature_desc">
+				 			<span><cms:text constant="feature_center"/></span>
+				 			<span><cms:text constant="feature_center_desc"/></span>
+				 		</div>
+				 		<div class="feature_desc">
+				 			<span><cms:text constant="feature_right"/></span>
+				 			<span><cms:text constant="feature_right_desc"/></span>
+				 		</div>
+				 	</div>
+				  <!-- ABOUT US SECTION -->
+				    <div class="about_wrap">
+				    	<div class="about">
+				    		<cms:module
+				    			name="articles"
+				    			action="show"
+				    			text_id="about_us"
+				    			template="parts/article.xml"
+				    		/>
+				    	</div>
+				    </div>
 			 </div>
 		</body>
 	</html>
