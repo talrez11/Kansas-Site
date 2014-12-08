@@ -125,7 +125,6 @@ div.kansas_wrap header div.phone_box{
 	color: white;
 	text-align: center;
 	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
-	cursor: pointer;
 	transition:all 0.3s;
 }
 
@@ -154,6 +153,7 @@ div.kansas_wrap header div.phone_box a{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	transition: all 0.3s;
+	cursor: pointer;
 }
 
 /*HEADER SERVICE SECTION*/
@@ -161,95 +161,113 @@ div.kansas_wrap header div.phone_box a{
 div.kansas_wrap header > div.service{
 	display: block;
 	position: absolute;
-	right: 0;
+	right: 0px;
 	top: 50px;
+	/*width:500px;*/
 }
 
 div.kansas_wrap header > div.service span{
+	position: relative;
 	display: block;
 	margin-bottom: 10px;
+	margin-left: auto;
 	padding-bottom: 10px;
 	padding-top: 70px;
 	padding-left: 25px;
 	padding-right: 25px;
+	background-repeat: no-repeat;
+	background-position: center 20px;
 	font-weight: bold;
 	color: white;
 	text-align: center;
-	
+	width: 90px;
 }
 
 div.kansas_wrap header > div.service span:nth-of-type(1){
 	background-color: rgba(230, 75, 59, 0.50);
-	background-repeat: no-repeat;
-	background-position: 55px 20px;
 	background-image: url(../images/emergency.svg);
-	transition:all 0.3s;
-	cursor: pointer;
-	
+	transition:all 0.3s ;
 }
 
-div.kansas_wrap header > div.service span:nth-of-type(1)::after{
+div.kansas_wrap header > div.service span:nth-of-type(1):after{
 	content: '';
 	position: absolute;
-	top: 0;
-	right: 100%;
+	top: 0px;
+	right: 140px;
 	border-top: 50px solid transparent;
 	border-right: 30px solid rgb(189, 132, 144);
-	border-bottom: 50px solid transparent
+	border-bottom: 50px solid transparent;
+	transition:all 0.3s;
 
 }
 
 div.kansas_wrap header > div.service span:nth-of-type(1):hover{
 	background-color:#e64b3b;
-	
+	width: 140px;
+}
+
+div.kansas_wrap header > div.service span:nth-of-type(1):hover:after{
+	right:190px;
+}
+
+div.kansas_wrap header > div.service span:nth-of-type(1):hover:after {
+	border-right-color: #e64b3b;
 }
 
 div.kansas_wrap header > div.service span:nth-of-type(2){
 	background-color: rgba(43, 61, 79, 0.5);
-	background-repeat: no-repeat;
-	background-position: 50px 20px;
 	background-image: url(../images/auto.svg);
 	transition:all 0.3s;
-	cursor: pointer;
 }
 
-div.kansas_wrap header > div.service span:nth-of-type(2)::after{
+div.kansas_wrap header > div.service span:nth-of-type(2):after{
 	content: '';
 	position: absolute;
-	top: 111px;
-	right: 100%;
+	top: 0px;
+	right: 140px;
 	border-top: 50px solid transparent;
 	border-right: 30px solid rgba(43, 61, 79, 0.5);
-	border-bottom: 50px solid transparent
-
+	border-bottom: 50px solid transparent;
+	transition:all 0.3s;
 }
+
 
 div.kansas_wrap header > div.service span:nth-of-type(2):hover{
 	background-color:#2b3d4f;
+	width: 140px;
+}
+
+div.kansas_wrap header > div.service span:nth-of-type(2):hover:after {
+	border-right-color:#2b3d4f;
+	right:190px;
 }
 
 div.kansas_wrap header > div.service span:nth-of-type(3){
 	background-color: rgba(51, 151, 218, 0.5);
-	background-repeat: no-repeat;
-	background-position: 50px 20px;
 	background-image: url(../images/residential.svg);
 	transition:all 0.3s;
-	cursor: pointer;
 }
 
-div.kansas_wrap header > div.service span:nth-of-type(3)::after{
+div.kansas_wrap header > div.service span:nth-of-type(3):after{
 	content: '';
 	position: absolute;
-	top: 222px;
-	right: 100%;
+	top: 0px;
+	right: 140px;
 	border-top: 50px solid transparent;
-	border-right: 30px solid rgba(51, 151, 218, 0.5);;
-	border-bottom: 50px solid transparent
+	border-right: 30px solid rgba(51, 151, 218, 0.5);
+	border-bottom: 50px solid transparent;
+	transition:all 0.3s;
 
 }
 
 div.kansas_wrap header > div.service span:nth-of-type(3):hover{
 	background-color:#3397da;
+	width: 140px;
+}
+
+div.kansas_wrap header > div.service span:nth-of-type(3):hover:after {
+	border-right-color:#3397da;
+	right:190px;
 }
 
 /*CONTACT FORM*/
@@ -273,25 +291,191 @@ div.kansas_wrap div.contact form {
 
 div.kansas_wrap div.contact form label {
     display: inline-block;
+    vertical-align: top;
     padding: 25px;
     padding-left: 10px;
 }
 div.kansas_wrap div.contact form input{
+	display: inline-block;
+	vertical-align: middle;
 	padding: 10px;
 	text-align: center;
-	color:black;	
+	color:black;
+	border: 2px solid #2b3d4f;
+	transition:all 0.3s;	
+}
+
+div.kansas_wrap div.contact form input:focus{
+	border: 2px solid  #bf382a;
 }
 
 div.kansas_wrap div.contact form span{
+	display: inline-block;
+	vertical-align: middle;
     padding-right: 10px;
 }
 
 div.kansas_wrap div.contact form div.controls{
 	display: inline-block;
+	vertical-align: top;
+	padding: 25px;
 }
 
 div.kansas_wrap div.contact form div.controls button{
    padding: 10px;
    width: 200px;
+   color:white;
+   background-color:  #e64b3b;
+   border: 1px solid #e64b3b;
+   border-radius: 5px;
+   cursor: pointer;
+   transition:all 0.3s;
 }
+
+div.kansas_wrap div.contact form div.controls button:hover{
+	background-color:  #bf382a;
+}
+
+/*FEATURE SECTION*/
+
+div.kansas_wrap div.feature{
+	display: block;
+	text-align: center;
+	background-color: white;
+	padding: 40px 40px;
+}
+
+div.kansas_wrap div.feature div.feature_desc{
+	display: inline-block;
+	vertical-align: top;
+	width: 320px;
+	padding: 5px 25px;
+}
+
+div.kansas_wrap div.feature div.feature_desc span{
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.kansas_wrap div.feature div.feature_desc span:nth-of-type(1):before{
+	 content: '';
+	 position: absolute;
+	 top:0px;
+	 left:50%;
+	 margin-left:-75px;
+	 width: 151px;
+	 height: 151px;
+     background-image: url(../images/icons-features-lines.svg);
+     background-repeat: no-repeat;
+     background-size: auto 151px;
+     background-position: 0px 0px;
+}
+
+div.kansas_wrap div.feature div.feature_desc span:nth-of-type(1):after{
+	 content: '';
+	 position: absolute;
+	 top:0px;
+	 left:50%;
+	 margin-left:-75px;
+	 width: 151px;
+	 height: 151px;
+     background-image: url(../images/icons-features-color.svg);
+     background-repeat: no-repeat;
+     background-size: auto 151px;
+     background-position: 0px 0px;
+     opacity: 0;
+     transition:opacity 0.5s;
+}
+
+div.kansas_wrap div.feature div.feature_desc:nth-of-type(2) span:nth-of-type(1):after{
+	 background-position: -150px 0px;
+}
+
+div.kansas_wrap div.feature div.feature_desc:nth-of-type(3) span:nth-of-type(1):after{
+	background-position: -300px 0px;
+}
+
+
+div.kansas_wrap div.feature div.feature_desc:nth-of-type(2) span:nth-of-type(1):before{
+	 background-position: -150px 0px;
+}
+
+div.kansas_wrap div.feature div.feature_desc:nth-of-type(3) span:nth-of-type(1):before{
+	background-position: -300px 0px;
+}
+
+
+div.kansas_wrap div.feature div.feature_desc span:nth-of-type(1){
+	position: relative;
+	padding-top: 150px;
+    width: 330px;
+	font-weight: bold;
+	font-size: 2rem;
+	color: #33485d;
+}
+
+div.kansas_wrap div.feature div.feature_desc span:nth-of-type(2){
+	padding-top: 10px;
+	font-family: 'Roboto-Regular';
+	font-size: 1.3rem;
+	color:  #221e1f;
+}
+
+div.kansas_wrap div.feature div.feature_desc:hover span:nth-of-type(1):after {
+	opacity: 1;
+
+}
+
+/*ABOUT US SECTION*/
+
+div.kansas_wrap div.about_wrap{
+	position: relative;
+	background-image: url(../images/about-us-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 1200px auto;
+	background-attachment: fixed;
+	width: 100%;
+	height: 640px;
+}
+
+/*div.kansas_wrap div.about_wrap div.about{
+	display: inline-block;
+	position: absolute;
+	top:50%;
+	margin-top:-320px;
+	display: block;
+	padding: 10px 20px;
+	width: 800px;
+	height:200px;
+	background-color:rgba(255, 255, 255, 0.9);
+}
+*/
+/*div.kansas_wrap div.about_wrap div.about article{
+	text-align: center;
+}
+
+div.kansas_wrap div.about_wrap div.about article p:nth-of-type(1){
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 2.1rem;
+	color: #33485d;
+}
+
+div.kansas_wrap div.about_wrap div.about article p:nth-of-type(2),div.kansas_wrap div.about_wrap div.about article p:nth-of-type(3){
+	font-size: 1.1rem;
+	color: #221e1f;
+	margin-top: -10px;
+	padding-right: 40px;
+	padding-left: 40px;
+}*/
+
+
+
+
+
+
+
+
+
 
