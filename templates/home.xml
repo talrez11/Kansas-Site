@@ -7,7 +7,6 @@
 			<title><cms:text constant="site_title"/></title>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
-
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			 <div class="kansas_wrap">
 			 	<!-- NAV MENU -->
@@ -20,7 +19,9 @@
 				 			/>
 				 		</span>
 				 		<span><cms:text constant="site_header"/></span>
-				 		<a href="#"><cms:text constant="phone"/></a>
+				 	
+				 		<a href="#"><cms:desktop><cms:text constant="phone"/></cms:desktop></a>
+				 		
 				 	</nav>
 				 	<!-- HEADER SECTION -->
 				 	<header>
@@ -43,6 +44,7 @@
 				 			<span><cms:text constant="residental"/></span>
 				 		</div>
 				 	</header>
+				 	<!-- FORM SECTION -->
 				 	<div class="contact">
 				 		<span><cms:text constant="form_caption"/></span>
 				 			<cms:module 
@@ -77,6 +79,51 @@
 				    		/>
 				    	</div>
 				    </div>
+				    <!-- SERVICES SECTION -->
+				    <div class="service_wrap">
+				    	<div class="service_item">
+				    		<span><cms:text constant="service1"/></span>
+				    	</div>
+				    	<div class="service_item">
+				    		<span><cms:text constant="service2"/></span>
+				    	</div>
+				    	<div class="service_item">
+				    		<span><cms:text constant="service3"/></span>
+				    	</div>
+				    	<div class="service_item">
+				    		<span><cms:text constant="service4"/></span>
+				    	</div>
+				    	<div class="service_item">
+				    		<span><cms:text constant="service5"/></span>
+				    	</div>				    	
+				    </div>
+				    <!-- FORM SECTION -->
+				 	<div class="contact">
+				 		<span><cms:text constant="form_caption"/></span>
+				 			<cms:module 
+				 				name="contact_form" 
+				 				action="show" 
+				 				text_id="contact_form"
+				 			/>
+				 	</div>
+				 	<footer>
+				 		<div class="inner_wrap">
+				 			<span><cms:text constant="header_middle"/></span>
+				 			<span><cms:text constant="footer_title"/></span>
+				 			<span><cms:text constant="footer_desc"/></span>
+				 			<span><cms:text constant="footer_phone"/>
+				 			<a href="#"><cms:text constant="phone"/></a> 
+				 			</span>				 			
+				 		</div>				 			 		
+				 	</footer>
+				 	<!-- COPYRIGHT SECTION -->
+				 	<div class="copyright">
+				 		<div class="copyright_text">
+				 			<span><cms:text constant="copyright1"/></span>
+				 			<a href="http://way2cu.com"><cms:text constant="way2cu"/></a>
+				 			<span><cms:text constant="copyright2"/></span>
+				 		</div>	
+				 	</div>
 			 </div>
 		</body>
 	</html>
