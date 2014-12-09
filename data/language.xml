@@ -17,7 +17,8 @@
 		<constant name="feature_right">Car/Auto Locksmith</constant>
 		<constant name="feature_left_desc">24/7 Emergency locksmith Kansas city.Home lockout, Car lockout, Emergencyopening doors</constant>
 		<constant name="feature_center_desc">24/7 Residential locksmith Kansas cityRe-keying/Installing locksets, Patio andGarage door locks, Fencing anGatelock
-installation </constant>
+											installation 
+		</constant>
 		<constant name="feature_right_desc">24/7 Automotive locksmith serviceKansas city Opening vehicle locksReplacing automotive locks, Re-key</constant>
 		<constant name="about_us_title">Why You Should Choose Us?</constant>
 		<constant name="about_us_desc1">
@@ -32,5 +33,22 @@ installation </constant>
 			aliquam nulla, id fermentum ante. Donec ut fringilla dui. Morbi convallis
 			euismod nulla vel condimentum. Morbi vel velit id.
 		</constant>
+		<constant name="service1">24/7 Lock Service employshighly trained locksmiths whooffer a fast reliable service tomost households andbusinesses in Kansas City 24/7.
+		</constant>
+		<constant name="service2">24/7 Lock Service professionallocksmiths have solutions forall any automotive, residentialor commercial locksmith,
+								security or lock requirements.
+		</constant>
+		<constant name="service3">24/7 Lock Service offer acomprehensive home securityservice that includes doorlocks, installations, repairs,replacements, re-keying and
+		upgrading any type of lock.
+		</constant>
+		<constant name="service4">24/7 Lock Service aspires to a15-minute response time for allemergencies in Kansas City.</constant>
+		<constant name="service5">24/7 Lock Service is proud ofits ability to service Kansas cityso efficiently</constant>
+		<constant name="footer_title">GET YOUR FREE ESTIMATE NOW</constant>
+		<constant name="footer_desc">and enjoy the pleasures of freedombacked by our reliable and rapid response.
+		</constant>
+		<constant name="footer_phone">Call now and we will arrive shortly</constant>
+		<constant name="copyright1">Designed and developed by</constant>
+        <constant name="copyright2">All rights reserved.</constant>
+        <constant name="way2cu">Way2CU</constant>
 	</language>
 </document>
