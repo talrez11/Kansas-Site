@@ -1,0 +1,96 @@
+/**
+ *  Style Sheet
+ *  Kansas-Site Mobile
+ *
+ * Copyright (c) 2014. by way2cu
+ * Author: Tal Reznic
+ */
+	/*GLOBAL*/
+  div.kansas_wrap{
+ 	display: block;
+	position: relative;
+	max-width: 1200px;	
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+ }
+
+ /*NAV MENU*/
+
+ div.kansas_wrap nav{
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	padding-left: 0px;
+ 	padding-right: 0px;
+ 	background-color: white;
+ 	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+ }
+  div.kansas_wrap nav span{
+ 	display: inline-block;
+ 	vertical-align: middle;
+ 	text-align: center;
+ }
+  div.kansas_wrap nav span img{
+ 	border-radius: 15px;
+ 	width:70%;
+
+ }
+  div.kansas_wrap nav span:nth-of-type(2){
+  	width: 200px;
+	font-family: 'Roboto Slab';
+	text-align: left;
+	font-size: 1.4rem;
+	line-height: 1.3rem;
+	color: #33485d;
+	font-weight: bold;
+	margin-top: -5px;
+ }
+  div.kansas_wrap nav a{
+	position: absolute;
+	right: 20px;
+	top: 0px;
+	width: 200px;
+	height:50px;
+	background-image: url(../images/icon-phone-green.svg);
+	background-repeat: no-repeat;
+	background-position: 175px;
+	background-size: 50px;
+	text-decoration: none;
+	padding-left: 27px;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition:all 0.3s;
+ }
+
+ /*HEADER SECTION*/
+
+div.kansas_wrap header{
+	position: relative;
+	background-image: url(../images/mobile-background-header.jpg);
+	background-repeat: no-repeat;
+	background-size:100% auto;
+}
+
+div.kansas_wrap header > span{
+	display: block;
+	width: 200px;
+	padding-left: 10px;
+	color: #33485d;
+	font-family: 'Roboto Slab'; 
+}
+
+div.kansas_wrap header>span:nth-of-type(1){
+	font-weight: bold;
+	font-size: 1.8rem;
+	padding-top: 75px;
+}
+
+div.kansas_wrap header > span:nth-of-type(2){
+	font-weight: 300;
+	width: 200px;
+	font-size: 3.4rem;		
+}
+
+
+ 
