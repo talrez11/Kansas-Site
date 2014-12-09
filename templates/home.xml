@@ -25,8 +25,10 @@
 				 	</nav>
 				 	<!-- HEADER SECTION -->
 				 	<header>
+				 		
 				 		<span><cms:text constant="header_top"/></span>
 				 		<span><cms:text constant="header_middle"/></span>
+				 	<cms:desktop>	
 				 		<span>
 				 			<img
 				 				src="_BASEURL.'/site/images/arrow-red.svg'"
@@ -34,15 +36,18 @@
 				 				cms:eval="src"
 				 			/>
 				 		</span>
+				 	</cms:desktop>	
 				 		<div class="phone_box">
 				 			<span><cms:text constant="phone_title"/></span>
 				 			<a href="#"><cms:text constant="phone"/></a>
-				 		</div>
+				 		</div>				 		
+				 <cms:desktop>
 				 		<div class="service">
 				 			<span><cms:text constant="emergency"/></span>
 				 			<span><cms:text constant="auto"/></span>
 				 			<span><cms:text constant="residental"/></span>
 				 		</div>
+				 </cms:desktop>
 				 	</header>
 				 	<!-- FORM SECTION -->
 				 	<div class="contact">
