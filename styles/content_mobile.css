@@ -35,7 +35,7 @@
  	width:70%;
 
  }
-  div.kansas_wrap nav span:nth-of-type(2){
+  div.kansas_wrap  nav span:nth-of-type(2){
   	width: 200px;
 	font-family: 'Roboto Slab';
 	text-align: left;
@@ -45,7 +45,7 @@
 	font-weight: bold;
 	margin-top: -5px;
  }
-  div.kansas_wrap nav a{
+  div.kansas_wrap  nav a{
 	position: absolute;
 	right: 20px;
 	top: 0px;
@@ -67,6 +67,7 @@
 
 div.kansas_wrap header{
 	position: relative;
+	background-color:white; 
 	background-image: url(../images/mobile-background-header.jpg);
 	background-repeat: no-repeat;
 	background-size:100% auto;
@@ -88,8 +89,46 @@ div.kansas_wrap header>span:nth-of-type(1){
 
 div.kansas_wrap header > span:nth-of-type(2){
 	font-weight: 300;
-	width: 200px;
-	font-size: 3.4rem;		
+	width: 300px;
+	font-size: 1.6rem;		
+}
+
+div.kansas_wrap header div.phone_box{
+	display: block;
+	width:220px;
+	margin: 0 auto;
+	padding: 10px 25px;
+	background-color:  #e64b3b;
+	color: white;
+	text-align: center;
+	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+	transition:all 0.3s;
+}
+
+div.kansas_wrap header div.phone_box:hover{
+	background-color:  #bf382a;
+}
+
+div.kansas_wrap header div.phone_box span{
+	font-size: 1.1rem;
+	font-weight: 300;
+}
+div.kansas_wrap header div.phone_box a{
+	display: block;
+	background-image: url(../images/icon-phone-white.svg);
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-position: 325px;
+	background-size: 45px;
+	text-align: left;
+	padding-left: 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.7rem;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: all 0.3s;
+	cursor: pointer;
 }
 
 
