@@ -116,7 +116,7 @@
 				 			<span><cms:text constant="header_middle"/></span>
 				 			<span><cms:text constant="footer_title"/></span>
 				 			<span><cms:text constant="footer_desc"/></span>
-				 			<span><cms:text constant="footer_phone"/>
+				 			<span><cms:desktop><cms:text constant="footer_phone"/></cms:desktop><cms:mobile><cms:text constant="phone_title"/></cms:mobile>
 				 			<a href="#"><cms:text constant="phone"/></a> 
 				 			</span>				 			
 				 		</div>				 			 		
