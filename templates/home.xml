@@ -10,7 +10,7 @@
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			 <div class="kansas_wrap">
 			 	<!-- NAV MENU -->
-				 	<nav>
+				 	<div class="logo">
 				 		<span>
 				 			<img
 				 				src="_BASEURL.'/site/images/logo.svg'"
@@ -22,7 +22,7 @@
 				 	
 				 		<a href="#"><cms:desktop><cms:text constant="phone"/></cms:desktop></a>
 				 		
-				 	</nav>
+				 	</div>
 				 	<!-- HEADER SECTION -->
 				 	<header>
 				 		
