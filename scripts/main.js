@@ -7,6 +7,9 @@
  */
 
 function on_site_load() {
+	$('a').onclick(function(){
+		alert("aSome");
+	});
 }
 
 $(on_site_load);
