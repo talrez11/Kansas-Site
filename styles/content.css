@@ -18,9 +18,9 @@
  }
 
 
- /*NAV MENU*/
+ /*div.logo MENU*/
 
- div.kansas_wrap nav{
+ div.kansas_wrap div.logo{
  	padding-top: 10px;
  	padding-bottom: 10px;
  	padding-left: 20px;
@@ -28,17 +28,17 @@
  	background-color: white;
  }
 
- div.kansas_wrap nav span{
+ div.kansas_wrap div.logo span{
  	display: inline-block;
  	vertical-align: middle;
  	text-align: center;
  }
 
- div.kansas_wrap nav span img{
+ div.kansas_wrap div.logo span img{
  	border-radius: 15px;
  }
 
- div.kansas_wrap nav span:nth-of-type(2){
+ div.kansas_wrap div.logo span:nth-of-type(2){
 	width: 200px;
 	padding-left: 10px;
 	font-family: 'Roboto Slab';
@@ -50,7 +50,7 @@
 	margin-top: -5px;
  }
 
- div.kansas_wrap nav a{
+ div.kansas_wrap div.logo a{
 	position: absolute;
 	right: 20px;
 	top: 25px;
@@ -71,7 +71,7 @@
 	transition:all 0.3s;
  }
 
- div.kansas_wrap nav a:hover{
+ div.kansas_wrap div.logo a:hover{
  	background-color:  #bf382a;
  }
 
@@ -423,8 +423,6 @@ div.kansas_wrap div.about_wrap{
 	background-size: 1200px auto;
 	background-attachment: fixed;
 	text-align: center;
-	padding-left: 20px;
-	padding-right: 20px;
 	padding-top: 90px; 
 	width: 100%;
 	min-height: 450px;
@@ -642,5 +640,9 @@ div.kansas_wrap div.copyright div.copyright_text a{
 
 div.kansas_wrap div.copyright div.copyright_text a:hover{
 	color:#bf382a;
+}
+
+@media (max-width: 1200px) {
+
 }
 
