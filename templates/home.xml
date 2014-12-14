@@ -111,6 +111,7 @@
 				 				text_id="contact_form"
 				 			/>
 				 	</div>
+				 	<!-- FOOTER SECTION -->
 				 	<footer>
 				 		<div class="inner_wrap">
 				 			<span><cms:text constant="header_middle"/></span>
